@@ -1,0 +1,2 @@
+python train_ssl.py --dataset tokyo --local-weight 0.1 --global-weight 1.0 --global-batch-size 1024 --global-neg-ratio 8 --grid-len 300
+python train_trial.py --dataset tokyo --pretrain-path ./output/tokyo_default_ssl_model.pth

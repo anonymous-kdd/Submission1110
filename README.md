@@ -10,15 +10,7 @@
 
 
 ### Datasets
-The raw data of different cities can be downloaded as follows:
-
-[Business-based urban data](https://sites.google.com/site/yangdingqi/home/foursquare-dataset)
-
-[Mobility-based urban data](https://ride.divvybikes.com/system-data)
-
-The downloaded data should be preprocessed to generate the business-based relationship dataset (Business-RD) and the mobility-based relationship dataset (Mobi-RD) for locations, respectively:
-
-Then run the preprocessing code for SEENet model:
+Firstly, the downloaded public data should be preprocessed to generate the business-based relationship dataset (Business-RD) and the mobility-based relationship dataset (Mobi-RD) for locations, respectively:
 ```
 python preprocess/run_Business_RD.py.py --input_data BUSINESS_RAW_DATA_PATH --output_path YOUR_OUTPUT_PATH
 python preprocess/run_Mobi_RD.py.py --input_data MOBI_RAW_DATA_PATH --output_path YOUR_OUTPUT_PATH

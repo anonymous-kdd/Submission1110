@@ -9,7 +9,7 @@
 - pandas >= 1.4.2
 
 
-### Datasets
+### Preprocessing for relationship datasets
 Firstly, the downloaded public data should be preprocessed to generate the business-based relationship dataset (Business-RD) and the mobility-based relationship dataset (Mobi-RD) for locations, respectively:
 ```
 python preprocess/run_Business_RD.py.py --input_data BUSINESS_RAW_DATA_PATH --output_path YOUR_OUTPUT_PATH
